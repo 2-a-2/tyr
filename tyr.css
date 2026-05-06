@@ -1,19 +1,19 @@
-.tyrveil,
-.tyrname {
+.tyr2veil,
+.tyr2name {
   opacity: 0 !important;
   transition: opacity 0.6s ease !important;
 }
 
-.tyrphrase {
+.tyr2phrase {
   opacity: 1 !important;
   transition: opacity 0.6s ease !important;
 }
 
-.tyrimg:hover .tyrveil,
-.tyrimg:hover .tyrname {
+.tyr2img:hover .tyr2veil,
+.tyr2img:hover .tyr2name {
   opacity: 1 !important;
 }
 
-.tyrimg:hover .tyrphrase {
+.tyr2img:hover .tyr2phrase {
   opacity: 0 !important;
 }
