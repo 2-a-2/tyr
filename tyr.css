@@ -1,19 +1,23 @@
-.tyr2veil,
-.tyr2name {
+.tyrveil,
+.tyrname {
+  visibility: hidden !important;
   opacity: 0 !important;
-  transition: opacity 0.6s ease !important;
+  transition: opacity 0.6s ease, visibility 0.6s ease !important;
 }
 
-.tyr2phrase {
+.tyrphrase {
+  visibility: visible !important;
   opacity: 1 !important;
-  transition: opacity 0.6s ease !important;
+  transition: opacity 0.6s ease, visibility 0.6s ease !important;
 }
 
-.tyr2img:hover .tyr2veil,
-.tyr2img:hover .tyr2name {
+.tyrimg:hover .tyrveil,
+.tyrimg:hover .tyrname {
+  visibility: visible !important;
   opacity: 1 !important;
 }
 
-.tyr2img:hover .tyr2phrase {
+.tyrimg:hover .tyrphrase {
+  visibility: hidden !important;
   opacity: 0 !important;
 }
