@@ -2,7 +2,6 @@
 
 .tyrwrap {
   display: inline-block !important;
-  background: var(--tyr-green, #68A85E) !important;
   padding: 8px !important;
   font-size: 0 !important;
   line-height: 0 !important;
@@ -11,8 +10,6 @@
 .tyrimg {
   width: 260px !important;
   height: 150px !important;
-  border: 2px solid var(--tyr-silver, #8F989F) !important;
-  background-image: var(--tyr-img) !important;
   background-size: cover !important;
   background-position: center !important;
   position: relative !important;
@@ -21,13 +18,12 @@
   line-height: normal !important;
 }
 
-.tyrshade {
+.tyrveil {
   position: absolute !important;
   left: 0 !important;
   right: 0 !important;
   top: 0 !important;
   bottom: 0 !important;
-  background: rgba(104,168,94,0.28) !important;
   z-index: 1 !important;
   visibility: hidden !important;
   opacity: 0 !important;
@@ -39,7 +35,6 @@
   left: 18px !important;
   right: 18px !important;
   bottom: 16px !important;
-  color: var(--tyr-silver, #8F989F) !important;
   font-family: Arial, sans-serif !important;
   font-size: 7.5px !important;
   letter-spacing: 1px !important;
@@ -59,7 +54,6 @@
   left: 0 !important;
   right: 0 !important;
   top: 56px !important;
-  color: var(--tyr-silver, #8F989F) !important;
   font-family: 'Eagle Lake', serif !important;
   font-size: 40px !important;
   letter-spacing: 2px !important;
@@ -76,15 +70,13 @@
   font-size: 52px !important;
   margin-right: 12px !important;
   vertical-align: -7px !important;
-  color: var(--tyr-silver, #8F989F) !important;
 }
 
 .tyrname span {
   vertical-align: middle !important;
-  color: var(--tyr-silver, #8F989F) !important;
 }
 
-.tyrimg:hover .tyrshade,
+.tyrimg:hover .tyrveil,
 .tyrimg:hover .tyrname {
   visibility: visible !important;
   opacity: 1 !important;
