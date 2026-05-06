@@ -1,0 +1,14 @@
+.tyrveil,
+.tyrtitle,
+.tyricon,
+.tyrline {
+  opacity: 0 !important;
+  transition: opacity 0.6s ease !important;
+}
+
+.tyrimg:hover .tyrveil,
+.tyrimg:hover .tyrtitle,
+.tyrimg:hover .tyricon,
+.tyrimg:hover .tyrline {
+  opacity: 1 !important;
+}
