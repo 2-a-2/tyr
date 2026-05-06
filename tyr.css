@@ -4,7 +4,16 @@
   transition: opacity 0.6s ease !important;
 }
 
+.tyrphrase {
+  opacity: 1 !important;
+  transition: opacity 0.6s ease !important;
+}
+
 .tyrimg:hover .tyrveil,
 .tyrimg:hover .tyrname {
   opacity: 1 !important;
+}
+
+.tyrimg:hover .tyrphrase {
+  opacity: 0 !important;
 }
